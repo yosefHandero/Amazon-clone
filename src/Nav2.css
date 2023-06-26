@@ -1,0 +1,46 @@
+
+.nav2>ul {
+    display:flex;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+}
+.nav2 ul li :hover {
+    border-style:solid;
+    border-width: 1.2px;
+    padding: 3px;
+    border-radius: 3px;
+    transition:  0.2s ease-in-out;
+
+    
+}
+.nav2>ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav2 ul li:first-child {
+padding-left: 1.5%;
+}
+.nav2 ul li {
+    flex:none
+
+}
+body {
+    overflow-x: hidden;
+
+}
+
+.nav2 ul {
+    height: 39px ;
+    margin-bottom: 0;
+    /* width: 100%; */
+    
+
+
+}
+/* @media(max-width:1800px){
+    .nav2  {
+    display: none;}
+  } */
